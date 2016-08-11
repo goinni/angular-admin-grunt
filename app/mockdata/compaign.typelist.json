@@ -1,0 +1,21 @@
+{
+    "code":"200",
+    "msg":"success",
+    "data":[{
+        "type":"SAC",
+        "name":"Central Sales Allowance",
+        "status":"Y"
+    },{
+        "type":"SAC2",
+        "name":"Central2 Sales Allowance",
+        "status":"Y"
+    },{
+        "type":"SAC3",
+        "name":"Central3 Sales Allowance",
+        "status":"N"
+    },{
+        "type":"SAC4",
+        "name":"Central4 Sales Allowance",
+        "status":"Y"
+    }]
+}

@@ -1,0 +1,33 @@
+<div class="panel panel-primary compaign-typelist-page">
+  <div class="panel-heading">
+        <b>Compaign Type List</b>
+        <span class="label label-default pull-right" ng-click="create()">New</span>
+  </div>
+  <div class="panel-body">
+    <table ng-if="datalist.length" class="table table-hover">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Compaign Type</th>
+              <th>Compaign Type Name</th>
+              <th>Auto Calculation</th>
+              <th>Handler</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="item in datalist">
+              <th scope="row">{{$index + 1}}</th>
+              <td>{{item.type}}</td>
+              <td>{{item.name}}</td>
+              <td>{{item.status}}</td>
+              <td>
+                 <span class="label label-default pull-right" ng-click="delete()">Delete</span>
+                  <span class="label label-default pull-right" ng-click="update()">Edit</span>
+              </td>
+            </tr>
+          </tbody>
+    </table>
+    <center ng-if="!datalist.length">无记录</center>
+  </div>
+</div>
+

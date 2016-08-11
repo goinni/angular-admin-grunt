@@ -1,0 +1,13 @@
+{
+  "name": "angular-growl",
+  "homepage": "https://github.com/goinni/angular-growl",
+  "_release": "54bd6f08f2",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "54bd6f08f2472c4d7febbb36c429b42d87d928ff"
+  },
+  "_source": "git://github.com/goinni/angular-growl.git",
+  "_target": "*",
+  "_originalSource": "goinni/angular-growl"
+}

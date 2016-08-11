@@ -1,0 +1,13 @@
+{
+  "name": "ui-bootstrap-tpls",
+  "homepage": "https://github.com/goinni/ui-bootstrap-tpls",
+  "_release": "39cef99266",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "39cef992660b6e0551fad068053ab958d99c00c8"
+  },
+  "_source": "git://github.com/goinni/ui-bootstrap-tpls.git",
+  "_target": "*",
+  "_originalSource": "goinni/ui-bootstrap-tpls"
+}

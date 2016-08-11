@@ -1,0 +1,30 @@
+{
+  "name": "Bird Admin",
+  "description": "Bird Admin Project",
+  "main": "lib",
+  "authors": [
+    "jerry.hou"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "^1.5.7",
+    "angular-route": "^1.5.7",
+    "angular-ui-router": "^0.3.1",
+    "animate.css": "^3.5.2",
+    "font-awesome": "fontawesome#^4.6.3",
+    "ui-bootstrap-tpls": "goinni/ui-bootstrap-tpls",
+    "angular-growl": "goinni/angular-growl",
+    "jquery-countTo": "mhuggins/jquery-countTo#^1.2.0",
+    "moment": "^2.13.0",
+    "angular-translate": "^2.11.1",
+    "angular-translate-loader-static-files": "^2.11.1"
+  }
+}
